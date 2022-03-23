@@ -10,11 +10,12 @@ body {
 
 .box {
     background-color: hsl(0, 0%, 100%);
-    width: 25%;
+    width: 45vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 20px;
+    max-height: 60;
 }
 .box img {
     width: 90%;
@@ -23,15 +24,17 @@ body {
 }
 .box h1, p {
     text-align: center;
-    padding: 0 20px;
+    padding: 0 4vh;
 }
 .box h1 {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    margin: 4vh 0 1vh 0;
 }
 .box p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 200;
     color: hsl(220, 15%, 55%);
+    padding-bottom: 30px;
 }
